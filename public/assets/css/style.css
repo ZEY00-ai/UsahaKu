@@ -1,0 +1,11 @@
+/* public/css/style.css */
+
+/* Fluid typography: dari 390px ke 1440px desktop */
+html { 
+    font-size: clamp(14px, 1vw + 10px, 16px); 
+}
+
+/* Efek soft glow di belakang hero */
+.glow-effect {
+    background: radial-gradient(circle at center, rgba(229, 211, 179, 0.15) 0%, transparent 70%);
+}
